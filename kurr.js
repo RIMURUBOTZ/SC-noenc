@@ -1550,7 +1550,7 @@ _ℒ⃝⛔Bio : ${stst}_
 _ℒ⃝💠Nomor : @${stod.split('@')[0]}_
 
 
-*❒ 「 AldiBotz BOTZ MENU 」 ❒*
+*❒ 「 Dani Official MENU 」 ❒*
 
 _ℒ⃝🌊 ${prefix}ownermenu_
 
@@ -1576,7 +1576,7 @@ _ℒ⃝🌊 ${prefix}gamemenu_
 
 _ℒ⃝🌊 ${prefix}othermenu_
  `
-sendButLocation(from, `${menu}`, "*_© Dani Officialゑ v.3.0_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© DaniOfficialゑ v.3.0_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
