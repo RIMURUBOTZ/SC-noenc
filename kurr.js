@@ -525,7 +525,7 @@ const ftrol = {
                             status: 1,
                             surface : 1,
                             message: `BOT AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
-                            orderTitle: `AldiBotzゑ v.3.0`,
+                            orderTitle: `DanI Officialゑ v.3.0`,
                             thumbnail: ofrply3, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -1183,27 +1183,27 @@ cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
 if(budy.includes('alditod')){
-cpref = `Hayo Ngomongin alditod Ya Gw Bilangin Ah Aowkowk`
+cpref = `Hayo Ngomongin Dani Official Ya Gw Bilangin Ah Aowkowk`
 reply(cpref)
 }
 if(budy.includes('aldiTod')){
-cpref = `Hayo Ngomongin aldiTod Ya Gw Bilangin Ah Aowkowk`
+cpref = `Hayo Ngomongin Dani Official Ya Gw Bilangin Ah Aowkowk`
 reply(cpref)
 }
 if(budy.includes('Assalamualaikum')){
-cpref = `Waalaikumsalam Hay Saya aldi Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Waalaikumsalam Hay Saya Dani official Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('assalamualaikum')){
-cpref = `Waalaikumsalam Hay Saya aldi Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Waalaikumsalam Hay Saya Dani Official Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('Hai')){
-cpref = `Hay Saya aldi Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Dani official Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('hai')){
-cpref = `Hay Saya aldi Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Dani Official Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
            if (budy.startsWith('>')){
