@@ -1,9 +1,9 @@
-///----------( Created By AldiBotz )----------\\\
+///----------( Created By Dani Official )----------\\\
 
 /**
 BASE:DENIS
 TQ TO:
-@AldiBotz
+@Dani Official
 @DcodeDenpa
 @Aldy Fauzy
 @OJAN
@@ -140,7 +140,7 @@ let family100 = [];
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "/> Tato AldiBotz";
+fake = "/> Tato Dani Official";
 autorespon = false
 playmusic = false
 menusimpel = false
@@ -1576,7 +1576,7 @@ _ℒ⃝🌊 ${prefix}gamemenu_
 
 _ℒ⃝🌊 ${prefix}othermenu_
  `
-sendButLocation(from, `${menu}`, "*_© AldiBotzゑ v.3.0_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Dani Officialゑ v.3.0_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
