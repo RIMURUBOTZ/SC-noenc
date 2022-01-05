@@ -2878,7 +2878,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `AldiBotzゑ v.3.0`,
+footerText: `Dani Officialゑ v.3.0`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2889,7 +2889,7 @@ break
         stod = `${sender}`
  listMsg = {
  buttonText: 'LIST STORE',
- footerText: '*_© AldiBotzゑ v.3.0_*',
+ footerText: '*_© Dani Officialゑ v.3.0_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan Mau Beli Apa Kak...`,
  sections: [
                      {
@@ -3261,8 +3261,8 @@ const serialUser = createSerial(18)
  * Pengguna:* ${_registered.length}
 └❏
 
-JANGAN LUPA JOIN GC : https://chat.whatsapp.com/GTIomoBv3qD8cK1VB84rs2
-*「 AldiBotzゑ v.3.0 」*`
+JANGAN LUPA JOIN GC : https://chat.whatsapp.com/IN7mdbtdMTNFKpdALUsUC4
+*「 Dani Officialゑ v.3.0 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
