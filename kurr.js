@@ -2319,6 +2319,21 @@ sendEphemeral: false,
 },mentionedJid:[stod]}, quoted : ftrol})
 }
 break
+		case 'nulis': 
+
+if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
+
+if (args.length < 1) return reply('*Teks nya mana?*') 
+
+catat = args.join(" ")
+
+sticWait(from)
+
+catat = await getBuffer(`https://api.zeks.me/api/nulis?text=${catat}&apikey=apivinz`)
+
+arif.sendMessage(from, catat, image, { quoted:mek,caption:'Nih Ngab' })
+
+break
 case 'wibumenu':
   if (!isRegistered) return reply(`daftar dlu om/tante ketik .verify`)
         if(menusimpel == false){               
