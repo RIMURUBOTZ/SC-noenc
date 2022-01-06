@@ -2522,7 +2522,8 @@ case 'gamemenu':
        menu = `*─❒GAME MENU*
 _ℒ⃝🌊 ${prefix}tebakgambar_
 _ℒ⃝🌊 ${prefix}caklontong_        
-       
+_ℒ⃝🌊 ${prefix}tictactoe_
+      
  `
 sendButLocation(from, `${menu}`, "*_© Dani Officialゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
