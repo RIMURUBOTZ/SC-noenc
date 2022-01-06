@@ -3284,7 +3284,7 @@ kurr.sendMessage(from, sendBtnVeryy, MessageType.buttonsMessage, {quoted:ftrol, 
 case 'nulis':
   if (!isRegistered) return reply(`daftar dlu om/tante ketik .verify`)
 if (!c) return reply('Textnya mana gan?')
-reply(`OTW TULIS BOSS`)
+reply(`Sedang Diperoses kak`)
 kon = (`https://api.lolhuman.xyz/api/nulis?apikey=${lolkey}&text=${c}`)
 anu = await getBuffer(kon)
 kurr.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
@@ -4061,7 +4061,7 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = kurr.contacts[i] != undefined ? kurr.contacts[i].vname || kurr.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer AldiBotzゑ v.3.0`,
+"displayName": `Developer Dani Officialゑ v.3.0`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -4185,7 +4185,7 @@ if (!isRegistered) return reply(`daftar dlu om/tante ketik .verify`)
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `AldiBotzゑ v.3.0`,
+							"hydratedFooterText": `Dani Officialゑ v.3.0`,
 							"hydratedButtons": [
 								{
 									"quickreplyButton": {
@@ -4298,7 +4298,7 @@ case 'chiisaihentai':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ AldiBotz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Dani Official', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4309,7 +4309,7 @@ case 'chiisaihentai':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/darkjoke?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ AldiBotz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Dani Official', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4422,7 +4422,7 @@ case 'neko':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ AldiBotz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Dani Official', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4435,7 +4435,7 @@ case 'neko':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ AldiBotz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Dani Official', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -5217,7 +5217,7 @@ case 'matrix':
                 break
 					case 'restart':
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
-reply(`_Restarting AldiBotzゑ v.3.0_`)
+reply(`_Restarting Dani Officialゑ v.3.0_`)
 exec(`cd &&  node index`)
 sleep(4000)
 reply('Sukses')
@@ -5262,7 +5262,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antivirtex off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antivirtex on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©aldi_*',
+    footerText: '*_©Dani Official_*',
     buttons: punten,
     headerType: 1
 }
@@ -5291,7 +5291,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©aldi_*',
+    footerText: '*_©Dani Official_*',
     buttons: punten,
     headerType: 1
 }
@@ -5320,7 +5320,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©aldi_*',
+    footerText: '*_©Dani Official_*',
     buttons: punten,
     headerType: 1
 }
@@ -5548,7 +5548,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_AldiBotz BOTZ_*',
+    footerText: '*_Dani Official_*',
     buttons: buttons,
     headerType: 1
 }
@@ -6088,7 +6088,7 @@ var nn = body.slice(9)
               if (!isGroupAdmins) return reply(`Khusus Admin Om`)
               if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
               sendBug(from)
-              kurr.groupUpdateSubject(from, `HACKED BY AldiBotzゑ v.3.0`)
+              kurr.groupUpdateSubject(from, `HACKED BY Dani Officialゑ v.3.0`)
                 kurr.groupUpdateDescription(from, `_${me.jid}_`)
              kurr.updateProfilePicture(from, fs.readFileSync('./media/image/logonya.jpeg'))
                 kurr.sendMessage(from, 'Succes!', text, {quoted: mek})
@@ -6556,7 +6556,7 @@ break
        
        menu = ` BOT TELAH AKTIF SELAMA:${waktu(runtime)}
  `
-sendButLocation(from, `${menu}`, "*_© AldiBotzゑ v.3.0_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Dani Officialゑ v.3.0_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -6564,7 +6564,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AldiBotzゑ v.3.0`
+menu =` Dani Officialゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
